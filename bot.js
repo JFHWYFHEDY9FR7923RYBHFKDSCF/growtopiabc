@@ -3,6 +3,9 @@ const client = new Discord.Client();
 var prefix = "$"
 var adminprefix = '$'
 
+client.on('ready', () => {
+client.user.setStatus("dnd");
+client.user.setGame(`Growtopia 3rb | $help |by 7MD  `,"https://www.twitch.tv/dggamingbot")
 
 //bc
 
